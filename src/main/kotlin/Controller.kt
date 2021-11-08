@@ -117,6 +117,7 @@ class Controller(okHttpClient: OkHttpClient) : Initializable{
         }
     }
 
+    /*
     fun setBind(cnt:Int, task:Task<DataMessage>){
         when(cnt){
             0 -> {
@@ -146,6 +147,6 @@ class Controller(okHttpClient: OkHttpClient) : Initializable{
             }
         }
     }
-
+    */
 
 }

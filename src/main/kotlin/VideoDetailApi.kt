@@ -72,13 +72,7 @@ class VideoDetailApi(bvid:String, client: OkHttpClient) {
     }
 
     companion object{
-        class VideoDetailRes(cid:String, page:Int, title:String){
-            val cid = cid
-            val page = page
-            val title = title
-            override fun toString(): String {
-                return "P${page}_$title cid:$cid"
-            }
-        }
+
+        data class VideoDetailRes(val cid:String,val page:Int,val title:String)
     }
 }
